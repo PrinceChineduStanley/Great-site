@@ -1,0 +1,325 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    width: 100%;
+    height: 600px;
+    background-color: grey;
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logobox{
+    width: 50%;
+    height: 40px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+}
+.rightnav{
+    width: 50%;
+    height: 40px;
+    /* background-color: hotpink; */
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-left: 40px;
+    color: white;
+    margin-right: 20px;
+}
+.homebutton{
+    margin-right: 20px;
+    background-color: black;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    margin-right: 20px;
+}
+.products{
+    margin-right: 20px;
+}
+.Emailbox{
+    width: 250px;
+
+}
+.Emailbox input{
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+}
+.Passwordbox{
+    width: 250px;
+}
+.Passwordbox input{
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+}
+.Signbutton{
+    width: 200px;
+    height: 30px
+}    
+.Signbutton input{
+    height:35px;
+    border-radius: 5px;
+    width: 100%;
+}
+.icon{
+    color: white;
+    display: none;
+    margin-right: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+/* End of Navbar */
+.slideimage1{
+    width: 100%;
+    height: 370px;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slideimage2{
+    width: 90%;
+    height: 270px;
+    background-color: hwb(84 3% 7%);
+    border: 1px solid grey;
+}
+.footerbox{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftbox{
+    width: 20%;
+    /* height: 200px; */
+    border: 1px solid grey;
+    /* margin: 0 10px; */
+}
+.centerbox{
+    width: 45%;
+    /* height: 200px; */
+    /* border: 1px solid grey; */
+    margin: 20px;
+
+}
+.rightbox{
+    width: 20%;
+    /* height: 200px; */
+    border: 1px solid grey;
+    /* margin: 0 10px; */
+    padding: 10px;
+}
+.completely{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(199, 195, 195);
+}
+.completely input{
+    width: 100%;
+    height: 40px;
+}
+.resource{
+    width: 100%;
+    height: 30px;
+}
+.resource input{
+    width: 100%;
+    height: 40px;
+}
+.Premier{
+    width: 100%;
+    height: 30px;
+}
+.Premier input{
+    width: 100%;
+    height: 40px;
+}
+.Dynamically{
+    width: 100%;
+    height: 30px;
+}
+.Dynamically input{
+    width: 100%;
+    height: 40px;
+}
+.Objectively{
+    width: 100%;
+    height: 30px;
+}
+.Objectively input{
+    width: 100%;
+    height: 40px;
+}
+.Proactively{
+    width: 100%;
+    height: 30px;
+}
+.Proactively input{
+    width: 100%;
+    height: 40px;
+}
+.redbutton{
+    width: 99%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(245, 172, 172);
+    color: rgb(233, 97, 97);
+}
+.downbox{
+    width: 100%;
+    height: 140px;
+    /* background-color: goldenrod; */
+    display: flex;
+
+    
+}
+.placeholder{
+    width: 25%;
+    height: 140px;
+    background-color: rgb(230, 224, 224);
+    /* border: 1px solid grey; */
+    margin-top: 10px
+}
+.textbox{
+    width: 80%;
+    height:130px ;
+    /* border: 1px solid rgb(209, 204, 204); */
+    margin-top: 10px
+}
+.premierbox{
+    width: 100%;
+    height: 20px;
+    margin-left: 5px;
+
+}
+.textarea{
+    width: 100%;
+    height: 70px;
+    margin-left: 5px;
+}
+.searcharea{
+    width:100% ;
+    height: 30px;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+.searchbox input{
+    width: 90%;
+    height: 25px;
+    border-radius: 1px;
+}
+
+.searchspace input{
+    width: 50%;
+    height: 30px;
+    border-radius: 1px;
+}
+.Dramatically{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(206, 204, 204);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.greenpercent{
+    width: 90%;
+    height: 20px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.skybluepercent1{
+    width: 90%;
+    height: 20px;
+    background-color: rgb(218, 215, 215);
+    border-radius: 5px;
+    margin: 10px;
+
+}
+.skybluepercent2{
+    width: 80%;
+    height: 20px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+.Orangepercent1{
+    width: 90%;
+    height: 20px;
+    background-color: rgb(218, 215, 215);
+    border-radius: 5px;
+    margin: 10px;
+}
+.Orangepercent2{
+    width: 50%;
+    height: 20px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+@media screen and (max-width: 576px) {
+    .footerbox{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    .leftbox{
+        width: 90%;   
+    }
+.centerbox{
+    width: 90%;
+    margin: 70px 0;
+
+}
+
+    .rightbox{
+        width: 90%;
+    }
+
+    .rightnav{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .navhome:hover .rightnav{
+      display: block;
+      position: absolute;
+      right: 5%;
+      height: 100%;
+      padding: 20px;
+      background-color: grey;
+      width: 50%;
+      border-bottom-right-radius: 50%;
+
+    }
+
+}
